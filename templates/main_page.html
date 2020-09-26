@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style/main_page.css">
+    <link rel="stylesheet" href="/static/style/panic.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="/static/js/main_page.js"></script>
+    <title>Go Panic Beautifier</title>
+</head>
+<body>
+    <header>Go Panic Beautifier</header>
+
+    <h2 id="info">Makes it easier to read and understand Golang panic stack trace logs.</h2>
+
+    <hr class="line">
+
+    <p class="input-label">Press <b>Ctrl+V</b> to enter your panic log below. JSON, \n, \t etc. is supported.</p>
+    <form id="panic-input-form" method="post">
+        <input type="text" id="panic-log" class="text-wrapper" name="panic_log" placeholder="Paste it here." autofocus>
+    </form>
+
+    <div id="output-area" class="text-wrapper" spellcheck="false">
+        <button onclick="copy()" id="copy-button">Copy to clipboard</button>
+        <p id="result">{{ .PanicLog }}</p>
+    </div>
+    <footer>
+        <a class="github-button" href="https://github.com/zherdev" aria-label="Follow @ntkme on GitHub">Follow @zherdev</a>
+        <a class="github-button" href="https://github.com/zherdev/go-panic-beautifier" data-icon="octicon-star" aria-label="Star zherdev/go-panic-beautifier on GitHub">Star</a>
+        <p>Written in Go by Zherdev. <a href="https://github.com/zherdev/go-panic-beautifier">See source code on GitHub.</a></p>
+    </footer>
+</body>
+</html>

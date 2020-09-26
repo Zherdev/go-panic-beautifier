@@ -1,0 +1,88 @@
+@font-face{
+    font-family: 'JetBrains Mono';
+    src: url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/web/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+    url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/web/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/web/JetBrainsMono-Regular.woff') format('woff'),
+    url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    margin: 2% 0;
+    font-size: 50pt;
+
+    text-align: center;
+    color: #7fd5ea;
+}
+
+.line {
+    width: 80%
+}
+
+#info {
+    font-size: 15pt;
+    text-align: center;
+    color: #202224;
+}
+
+.input-label {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 13pt;
+}
+
+.text-wrapper {
+    font-family: "JetBrains Mono", sans-serif;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 1px;
+    background-color: #f7f9fa;
+    color: #202224;
+    padding: 10px;
+    outline:none;
+}
+
+#output-area {
+    min-height: 300px;
+    margin-top: 1%;
+}
+
+#output-area p {
+    white-space: pre-wrap;
+}
+
+footer {
+    color: #666;
+    text-align: center;
+    font-size: 9pt;
+    margin-top: 2%;
+}
+
+footer a {
+    color: #666;
+}
+
+#copy-button {
+    display: block;
+    border-style: solid;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 1px;
+    float: right;
+    margin-right: 1px;
+    font-size: smaller;
+    background-color: #e4eff3;
+}

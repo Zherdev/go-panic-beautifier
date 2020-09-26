@@ -1,0 +1,19 @@
+.header-error-msg {
+    color: darkred;
+}
+
+.signal-msg {
+    color: orange;
+}
+
+.goroutine-line {
+    color: gray;
+}
+
+.line-num {
+    color: lightgreen;
+}
+
+.filename {
+    color: darkgreen;
+}

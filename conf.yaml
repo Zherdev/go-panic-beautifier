@@ -1,0 +1,9 @@
+port: "80"
+
+main_page_url: "/"
+main_page_template: "templates/main_page.html"
+
+read_timeout: "10s"
+write_timeout: "10s"
+
+log_level: 6
